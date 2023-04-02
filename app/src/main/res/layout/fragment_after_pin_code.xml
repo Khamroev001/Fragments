@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".AfterPinCodeFragment">
+
+    <LinearLayout
+        android:id="@+id/colorFieldForFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/first"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/first"
+            app:cardCornerRadius="100dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/second"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/second"
+            app:cardCornerRadius="100dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/third"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/third"
+            app:cardCornerRadius="100dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fourth"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/fourth"
+            app:cardCornerRadius="100dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
